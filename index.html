@@ -132,11 +132,13 @@
           <li><a href="#MCXGoldFuturesIntradayTradingPlanAllowed">ALLOWED</a></li>
           <li><a href="#MCXGoldFuturesIntradayTradingPlanTimewiseActivity">TIMEWISE ACTIVITY</a></li>
           <li><a href="#MCXGoldFuturesIntradayTradingPlanMoneyManagement">MONEY MANAGEMENT (Capital belongs to discipline. Until one shows it in discipline streak, one don't get access.) </a></li>
+          <li><a href="#MCXGoldFuturesIntradayTradingPlanEntryStrategy">ENTRY STRATEGY</a></li>
         </ol>
       </nav>
     </header>
 
     <main>
+      <!-- RISK MANAGEMENT STRATEGY -->
       <section>
         <h2 id="MCXGoldFuturesIntradayTradingPlanRiskManagementStrategy">I. RISK MANAGEMENT STRATEGY</h2>
 
@@ -755,6 +757,8 @@
           </p>
         </section>
       </section>
+
+      <!-- MONEY MANAGEMENT -->
       <section>
         <h2 id="MCXGoldFuturesIntradayTradingPlanMoneyManagement">MONEY MANAGEMENT</h2>
         <section>
@@ -879,6 +883,128 @@
         <section>
           <h3 class="bold">How much might be principal amount, profit payout, after 100 trades?</h3>
           <p>Refer Simulation Sheet</p>
+        </section>
+      </section>
+
+      <!-- ENTRY STRATEGY -->
+      <section>
+        <h2 id="MCXGoldFuturesIntradayTradingPlanEntryStrategy">ENTRY STRATEGY</h2>
+        <section>
+          <h3 class="bold">Preferred chart candlestick</h3>
+          <p>Volume Candle</p>
+        </section>
+        <section>
+          <h3 class="bold">Hammer Candle Identification Criteria</h3>
+          <p>On 15m timeframe it usually formed at swing LOW with</p>
+
+          <ol>
+            <li>longest downside wick (70% +- 10%) and</li>
+            <li>smallest body (20% +- 10% ) and</li>
+            <li>might upside wick (10% +- 10%)</li>
+          </ol>
+        </section>
+        <section>
+          <h3 class="bold">Shooting Star Candle Identification Criteria</h3>
+          <p>On 15m timeframe it usually formed at swing HIGH with</p>
+          <ol>
+            <li>longest upside wick (70% +- 10%) and</li>
+            <li>smallest body (20% +- 10%) &</li>
+            <li>might downside wick (10% +- 10%)</li>
+          </ol>
+        </section>
+        <section>
+          <h3 class="bold">take ENTRY only when 2 minutes left for 15m candle closing</h3>
+          <ol>
+            <li>When 2 minutes are left for 15m candle closing only then allowed to take ENTRY on 5m timeframe.</li>
+            <li>it gives higher probability of protecting precious capital by SL triggering as new LOW/HIGH might be formed IF taken entry earlier resulting in premature SL hit.</li>
+            <li>IF ENTRY not triggered and 15m closed immediately CANCEL the order</li>
+          </ol>
+        </section>
+        <section>
+          <h3 class="bold">ENTRY CRITERIA</h3>
+          <p>
+            ENTRY must be previous 5m candle HIGH/LOW +- 3 points <br />
+            <br />
+            <strong>SHORT:</strong> <br />
+            LOW of previous 5m candle -3 points using SL Limit Trigger order <br />
+            <br />
+            <strong>LONG:</strong> <br />
+            HIGH of previous 5m candle +3 points using SL Limit Trigger order
+          </p>
+        </section>
+        <section>
+          <h3 class="bold">order type</h3>
+          <p>SL LIMIT</p>
+        </section>
+        <section>
+          <h3>Only Allowed Position Type</h3>
+          <p>INTRADAY</p>
+        </section>
+        <section>
+          <h3 class="bold">Which Timeframe to trade ENTRY</h3>
+          <p>5m</p>
+        </section>
+        <section>
+          <h3 class="bold">
+            Which Timeframe to <br />
+            a. draw support/resistance zones, fibo levels<br />
+            b. observe for ENTRY setups formations
+          </h3>
+          <p>15m</p>
+        </section>
+        <section>
+          <h3 class="bold">Which ENTRY Setup to use</h3>
+          <p>
+            Just Use intuition <br />
+            ( OR ) <br />
+            just comfortable with support & resistance so for the next 100 trades curious to see how they perform, but here are some setups <br />
+            SHORT below Shotting Star Candle <br />
+            SHORT near Resistance zone <br />
+            LONG above Hammer Candle <br />
+            Long near support Zone <br />
+            etc.
+          </p>
+        </section>
+        <section>
+          <h3 class="bold">ENTRY Order type</h3>
+          <p>Intraday SL Limit</p>
+        </section>
+        <section>
+          <h3>Allocate <strong>60% : 40% Screen estate</strong> to 15m : 5m charts</h3>
+          <p>
+            15m chart must occupy 60% of screen & 5m chart only 40%. <br />
+            Realized that by observing the 15m chart one get holistic view of the market what happened yesterday & important demand/supply levels
+          </p>
+        </section>
+        <section>
+          <h3>How to <strong>arrange charts</strong> on monitors at home</h3>
+          <p>
+            <strong>Primary Monitor (LG 34 inches)</strong> <br />
+            On Left hand side 15m chart with important levels marked<br />
+            On Right Hand side 5m chart<br />
+            <br />
+            <strong>Secondary Monitor (Laptop)</strong><br />
+            Calculator Position Sizing
+          </p>
+        </section>
+        <section>
+          <h3>How to <strong>arrange charts</strong> on monitors at shop</h3>
+          <p>accordingly</p>
+        </section>
+        <section>
+          <h3>Mandatory to <strong>restart the laptop/computer IFF</strong> earlier it was put into sleep mode</h3>
+          <p>observed that laptop/computer works slow, chrome feels sluggish after waking laptop from sleep mode, so need to make sure that before trading IFF put laptop into sleep mode earlier mandatory required to restart it.</p>
+        </section>
+        <section>
+          <h3>Occassionally Manually <strong>refresh the chart screen</strong> for accurate candles</h3>
+          <p>
+            noticed that the chart in upstox isn't accurate after some time, for e.g. today after taking the trade it shows the freak trade candle whose low was below SL & high was near day high & was surprised how may it be that SL is still intact.
+            when refresh the screen the candles were totally different. so required to refresh the chart ocassionaly when there is disconnect of internet, before taking new trade.
+          </p>
+        </section>
+        <section>
+          <h3 class="bold">ENTRY Timing</h3>
+          <p>05:13 PM to 08:00 PM</p>
         </section>
       </section>
     </main>
