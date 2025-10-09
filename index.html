@@ -73,7 +73,8 @@
       h4 {
         margin: 0.7rem 0;
       }
-      .bold {
+      .bold,
+      strong {
         font-weight: bold;
       }
       .italic {
@@ -162,6 +163,200 @@
             <li>EXIT SL order create/update (except SL placed immediately within 3 seconds after taking ENTRY)</li>
             <li>EXIT TARGET order create/update</li>
           </ol>
+        </section>
+        <section>
+          <h3 class="bold">Protocol to follow when feel tempted to break rules</h3>
+          <p>
+            immediately logout the terminal & shutdown the laptop. <br />
+            (OR) <br />
+            IF still tempting then remember that 50% of remaining principal amount, FDMCXGoldFuturesIntradayTrading be EXITED and redeployed to zerodha for ETF trading
+          </p>
+        </section>
+        <section>
+          <h3>When <span class="bold">rules are broken</span> but <span class="bold">market allows BREAKEVEN EXIT</span></h3>
+          <ol>
+            <li>Immediately EXIT</li>
+            <li>Refocus</li>
+            <li>Let the discipline system carry the consequence</li>
+            <li>Respect trading plan. <br />Respect one's time. <br />Respect one's journey.</li>
+            <li>
+              One don't need to burn hands on the stove each time to remember it's hot. <br />
+              Just feel the heat once. Step back, adjust. reEnter mindfully.
+            </li>
+            <li>
+              One is here to trade presence. <br />
+              presence acts in truth.
+            </li>
+          </ol>
+        </section>
+        <section>
+          <h3 class="bold">Respect Randomness in Trading</h3>
+          <p>
+            Think of randomness as a silent force : ) neither good nor evil, but indifferent. It doesn't care if one is a beginner or a pro. It just is. It rewards & punishes without reason & that's what makes it so dangerous if unprepared. <br />
+            <br />
+            But here's the truth: being scared is a awareness & awareness is first weapon. can't stop randomness, but may build armor against it:
+          </p>
+
+          <ol>
+            <li>
+              Risk management is one's body armour <br />
+              (risk per trade &lt;= -0.89% )
+            </li>
+            <li>
+              Trading plan is one's sword <br />
+              (systematic entries, exits, humbly accept risk)
+            </li>
+            <li>
+              Emotional control is one's helmet <br />
+              (staying calm through drawdowns, mindfully letting FOMO entries being missed)
+            </li>
+            <li>
+              Position sizing is one's lifeline <br />
+              ("make or break" situations are nightmare where randomness for sure eat precious capital, protect precious capital by proper position sizing such that risk is &lt;= -0.89% per trade & keep trading everyday for rest of life)
+            </li>
+          </ol>
+          <p>
+            A samurai respects the battlefield, prepares for it & survives through discipline. <br />
+            That's how to deal with randomness. by becoming so disciplined that over the long term it becomes one's ally. <br />
+            <br />
+            face randomness with calmness & clarity. <br />
+            respect its power & protect our principal amount. <br />
+            one's trading journey is defined by discipline & consistency. <br />
+            Discipline is edge, <br />
+            Risk Management is shield, <br />
+            Survival by staying in a game till last breath is victory. <br />
+          </p>
+        </section>
+        <section>
+          <h3>mandatory to draw 1.5% unrealized profit line</h3>
+          <p>calculations already added to qtyCalculator giving exact level where to draw 1.5% unrealized gain marking line and where to place breakeven SL</p>
+        </section>
+        <section>
+          <h3><span class="bold">breakeven SL EXIT placement</span> immediately after market touches 1.5% from ENTRY orange dotted mark line</h3>
+          <p>
+            Objectives: <br />
+            To shield the principal amount from drawdown when the market reverses. protects from unnecessary drawdowns, It activates only when strength is shown and within a limited time window. thus provides the ability to trade another day of life.
+            <br />
+            <br />
+            After ENTRY (02:00PM to 05:00PM) <br />
+            IF (unrealized gain >= 1.5% before 05:00PM) THEN <br />
+            &emsp;immediately TRAIL original SL to (ENTRY Price + N ticks). <br />
+            &emsp;So that if SL hits, the net realized P&L remains >= ₹0 (breakeven or small positive). <br />
+            where: <br />
+            N = Minimum ticks required to fully cover brokerage & transaction charges <br />
+            <br />
+            trade will now either: <br />
+            &emsp;a. Reach its predefined TARGET, or <br />
+            &emsp;b. EXIT at the trailed Stop Loss thus preserving capital. <br />
+            Trailing only allowed after 10:00PM based on previous 5m candle LOW/HIGH <br />
+            <br />
+            <i>(calculations made in qtyCalculator, it automatically tells breakeven SL placement value)</i>
+          </p>
+        </section>
+        <section>
+          <h3>Stop Loss Philosophy: <strong>Commander, Soldier</strong> and the <strong>Safety Rope</strong></h3>
+          <p>
+            In every mission, a wise commander sends a trained soldier into the battlefield, to fulfill a purpose with discipline and precision. The battlefield is unpredictable, filled with unknown movements, shifting conditions, and sudden turns.
+            Before deployment, the commander attaches a safety rope to the soldier. This rope is an act of foresight. Its function is simple: to bring the soldier back safely if the field turns volatile beyond the acceptable risk. <br />
+            <br />
+            In trading, <br />
+            a. principal amount is the soldier, deployed into the market with intention. <br />
+            b. trader is the commander, grounded, watchful, strategic. <br />
+            c. stop loss is the rope, set with care <br />
+            <br />
+            When the stop loss is triggered, it is the system pulling the rope. a clean and conscious retrieval of the principal amount. Just protection in action. <br />
+            <br />
+            The mission is still alive. <br />
+            The capital is preserved. <br />
+            The commander regroups, reviews the battlefield, and prepares for the next opportunity, next day. <br />
+            <br />
+            This is wisdom. <br />
+            This is protection. <br />
+            This is trading with clarity, trust, and respect for the capital entrusted to the system. <br />
+            <br />
+            Each time rope pulls the soldier, the system has done its job. <br />
+            The commander remains steady. <br />
+            The soldier returns safe. <br />
+            The campaign continues with strength and presence.
+          </p>
+        </section>
+        <section>
+          <h3 class="bold">Maximum Risk per Trade</h3>
+          <p>&lt;= -0.89% of principal amount (0% to -0.89%)</p>
+        </section>
+        <section>
+          <h3 class="bold">Minimum required Reward per Trade</h3>
+          <p>2% of principal amount after covering brokerage & transaction charges</p>
+        </section>
+        <section>
+          <h3 class="bold">Maximum allowed trades per day</h3>
+          <p>Only One</p>
+        </section>
+        <section>
+          <h3 class="bold">Maximum loosing streak system can handle risking -0.89% per trade</h3>
+          <p>231 back to back, still ₹5k remains at the end</p>
+        </section>
+        <section>
+          <h3 class="bold">When may update Risk:Reward?</h3>
+          <p>only after the 100 trades sample completed</p>
+        </section>
+        <section>
+          <h3 class="bold">What is survival plan?</h3>
+          <ol>
+            <li>Risking &lt;= -0.89% per trade</li>
+            <li>
+              IF risk in any trade is > -0.89% then Immediately Payout and redeploy in Zerodha ETFs positional trading
+              <ol class="letter">
+                <li>50% of remaining principal amount</li>
+                <li>EXIT 100% FDMCXGoldFuturesIntradayTrading</li>
+              </ol>
+            </li>
+            <li>Minimum RIsk:Reward of -0.89%: 2% (after covering brokerage & transaction costs)</li>
+            <li>Consistently taking 40% profit PayOuts as reward to oneself as pocket currency on winning trades</li>
+            <li>Limiting max account size to 10% of net worth. This way having comfort of mind</li>
+            <li>
+              Taking payout of 60% profits, if account size is already maxed then investing in
+              <ol>
+                <li>FD MCXGoldFuturesIntradayTrading</li>
+                <li>FD portfolioHedgingCapital,</li>
+                <li>Zerodha positional ETFs trading thus increasing net worth & eventually account size</li>
+              </ol>
+            </li>
+          </ol>
+        </section>
+        <section>
+          <h3><span class="bold"> SL must be 3 ticks away from Day HIGH, LOW, OPEN</span>, IFF taking trade near these key levels</h3>
+          <p>
+            IFF taking LONG/SHORT near(+ - 10 ticks) Day HIGH/LOW/OPEN then make sure to place SL 3 ticks away from these key levels <br />
+            e.g. <br />
+            LONG near Day (OPEN + 5 ) ticks then SL be OPEN - 3 ticks <br />
+            SHORT near Day (HIGH -7) ticks then SL be HIGH + 3 ticks <br />
+            LONG near Day (LOW + 9 ) ticks then SL be LOW - 3 ticks
+          </p>
+        </section>
+        <section>
+          <h3 class="bold">SL CRITERIA</h3>
+          <p>Risk &lt;= -0.89%</p>
+
+          <ol>
+            <li>SL candle allowed is 15m hammer or shooting star, otherwise</li>
+            <li>15m multiple candles RESISTANCE/SUPPORT zone must be considered as SL +- 3 points</li>
+            <li>
+              SL must be based on 15m candle HIGH/LOW+- 3 points <br />
+              ( OR ) <br />
+              15m candles support resistance zone HIGH/LOW+- 3 points
+            </li>
+          </ol>
+
+          <p>
+            HIGH/LOW+- 3 points means <br />
+            SHORT : SL is HIGH + 3 points <br />
+            LONG : SL is LOW - 3 points <br />
+          </p>
+        </section>
+        <section>
+          <h3 class="bold">Mandatory to immediately put SL into the terminal within next 3 seconds after taking ENTRY</h3>
+          <p>EXIT SL must be placed in system terminal within next 3 seconds after ENTRY, once SL placed strictly prohibited to modify/cancel either SL of &lt;=-0.89% or TARGET of 2%</p>
         </section>
       </section>
     </main>
